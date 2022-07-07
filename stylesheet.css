@@ -1,6 +1,6 @@
 body { 
     /*background: linear-gradient(to left, #f0f2ef, #e7e7e7);*/
-    background-color: white;
+    background-color: #303030;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
@@ -33,6 +33,7 @@ ul {
 }
 li {
     display: inline-block;
+    color: #2867b1;
     font-family: monospace;
     width: auto;
     font-size: 18px;
@@ -45,14 +46,18 @@ li a {
     text-align: center;
     text-decoration: none;
 }
-div.nav img {
+div.nav li {
     transition: filter 0.3s ease-in-out;
     /*-webkit-filter: brightness(100%);
     filter: brightness(100%);*/
 }
-div.nav img:hover{
+div.nav li:hover{
     /*-webkit-filter: brightness(0%);*/
-    filter: brightness(0%);
+    filter: hue-rotate(-90deg);
+    /*filter: grayscale(0);*/
+    
+    background: #303030;
+    
 }
 
 div.profile{
