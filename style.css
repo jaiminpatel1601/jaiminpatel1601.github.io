@@ -1,0 +1,139 @@
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    opacity: 0.3;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    opacity: 0.3;
+}
+.carousel-control-prev:hover .carousel-control-prev-icon{
+    opacity: 1;
+}
+.carousel-control-next:hover .carousel-control-next-icon{
+    opacity: 1;
+}
+.carousel-indicators li{
+    background-color: #007bff;
+    opacity: 0.2;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:hover {
+    color: #343a40;
+    background-color: #ffffff;
+}
+.icon{
+    opacity: 0.6;
+    height: 2.5em;
+}
+.icon:hover{
+    opacity: 1;
+}
+.icon > img {
+    height: 2.2em;
+}
+.carousel-inner {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact_form {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-top: 2.5em;
+}
+.navbar-brand{
+    font-family: "Anton SC", sans-serif;
+    font-size: 1.5em;
+}
+html {
+    scroll-behavior: smooth;
+}
+.footer {
+    font-size: 0.8em;
+}
+
+/* Desktop View */
+@media screen and (min-width:400px) {
+    body{
+        background-color: aliceblue; /*Change later*/
+        font-size: 1.3em;
+    }
+    #about_me {height:30em;}
+    #about_me > div{
+        justify-content: space-between;
+        display: flex;
+    }
+    #about_me span {
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .profile_image {
+        /*height: 30em;*/
+        max-width: 30vw;
+        max-height: 25em;
+        position:relative;
+        /* box-shadow: 0 20px 30px rgba(0,0,0,.3), 0px -10px 30px rgba(0,0,0,.3); */
+
+    }
+    .project_image{
+        height:25em;
+        max-width: 100%;
+    }
+    
+    #my_journey {
+        margin: 5%;
+    }
+    .form input{
+        display:inline;
+        width:49.5%;
+    }
+    .form {
+        justify-content: space-between;
+    }
+}
+
+
+/* Mobile view */
+@media screen and (max-width:390px) {
+    body{
+        background-color: aliceblue; /*Change later*/
+    }
+    #about_me > div {
+        display:flex;
+        flex-direction: column-reverse;
+        height:fit-content;
+        
+    }
+    .profile_image {
+        width:100vw;
+        margin-left:-18vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .project_image {
+        width:100%;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .carousel-inner {
+        width:80vw;
+    }
+    #contact_form {
+        width: 80vw;
+        margin-left: auto;
+    }
+    
+}
