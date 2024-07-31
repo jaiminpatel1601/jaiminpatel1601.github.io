@@ -1,0 +1,110 @@
+<!--
+    Colour Scheme: #2B3E42, #747E80, #D5E1DD, #F7F3E8, #F2583E, #77BED2
+                https://www.colorcombos.com/color-schemes/275/ColorCombo275.html
+    
+-->
+
+
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css"/>
+        <link rel="icon" href="T-Card_Photo_-_Jaimin_Patel - Background Removed.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet"/>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <!--<script src="https://cdn.tailwindcss.com"></script>-->
+    </head>
+    
+
+
+    <script src = "main.js"></script>
+    <body>
+        <div class = "main">
+
+               
+                <section style="border-radius: 25%;">
+                <div class="profile">
+                    <pre><h1 class = "name">Jaimin <div class="shadow"><img class= "profile_pic" style="background-color: #2867b1; position: relative; display: inline-block; height: 3em; border-radius: 50%;" src="../T-Card_Photo_-_Jaimin_Patel - Background Removed.png" alt="Profile picture"/></div> Patel </h1>
+                    </pre>
+                    <!--<br/> <a target="blank()" href="https://www.utm.utoronto.ca/future-students/programs/computer-science-mathematics-statistics"> @UofT-Mississauga</a>-->
+                    <br/><br/>
+                </div>
+                </section>
+                <div class="navbar">
+                    <ul>
+                        <a href="#links"><li>About Me</li></a>
+                        <a href="#python_journey"><li class="my_journey_dropdown">My Journey</li></a>
+                            <div class="journey_nav_dropdown_content">
+
+                                    <a href="#python_journey"><li>Python</li></a>
+                                    <a href="#java_journey"><li>Java</li></a>
+                                    <a href="#robotics_journey"><li>Robotics</li></a>
+
+                            </div>
+                        <a href="#contact_me"><li>Contact Me</li></a>
+                    </ul>
+                </div>
+                <div class = "links" id="links" style = "height: 7vh; padding-top: 61vh;">
+                    <ul class = "links">
+                        
+                        <li><a target="_blank" href="https://www.linkedin.com/in/jaimin-patel-3071b3168"><img height= "100%" src="../Images/Icons/LinkedInLogo.png" alt="LinkedIn"/></a><span class="tooltiptext">LinkedIn</span></li>
+                        <li><a target="_blank" href="https://github.com/jaiminpatel1601"><img height="100%" src="../Images/Icons/GitHubLogo.png" alt="GitHub"/></a><span class="tooltiptext">GitHub</span></li>
+                        <li><a target="_blank" href="Resume - Jaimin Patel.pdf"><img height="100%" src="../Images/Icons/PDFLogo.png" alt="Resume"/></a><span class="tooltiptext">Resume</span></li>
+                        <li><a target="_blank" href="mailto:jaimin.patel1601@gmail.com"><img height="100%" src="../Images/Icons/MailLogo.png" alt="Email"/></a><span class="tooltiptext">Email</span></li>
+                    </ul>
+                </div>
+                <div class="about_me" id="about_me" style="width:50vw; height:30vh; padding:0 25vw; align-self: center;">
+                    <p>Aspiring software developer with a strong problem-solving mindset, studying Computer Science at University of Toronto. Self-learner with strong analytical skills and a solid understanding of computer science fundamentals. Enthusiastic individual excited to contribute to innovative projects, collaborate with talented teams, adapt to emerging cutting-edge technologies, and gain hands-on experience in software development.</p>
+                </div>
+                <div class="projects" id="python_journey" data-component="projects">
+                    <div role = "list">
+                        <div class="project" id = "ThreeMusketeers">
+                            <div style="width:40%;">
+                                <h2>Three Musketeers Game</h2>
+                                <p class="description">A customizable board game with a focus on enhanced UI/UX. Player can choose from different themes and have the ability to play the AI which uses Greedy Algorithm heuristics to calculate the winning side and determine the best move. Developed in an agile environment, the game went through full software development life cycle (SDLC) to meet project goals and ensure code quality.</p>
+                                <p><b>Skills:</b> <i>Java, JavaFX, UML, Design Patterns, Git, Eclipse</i></p>
+                            </div>
+                            <div class="project_image" style="width:40%;"><img class = "ThreeMusketeers" src="../Images/Java/ThreeMusketeers.png"/></div>
+
+                        </div>
+                        <div class="project" id = "ImageProcessing">
+                            <div style="width:40%;">
+                                <h2>Image Processing</h2>
+                                <p class="description">An image processing software which uses a compression algorithm and quadtree data structure to compress an image. It uses a decompression algorithm to convert the image back to original state.</p>
+                                <p><b>Skills:</b> <i>Python, Data Structures, Algorithms</i></p>
+                            </div>
+                            <div class="project_image" style="width:40%;"><img class = "ImageCompression" src="../Images/Python/ImageCompressionNew.png"/></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="robotics_journey" id = "robotics_journey">
+                    <h2 style="color:#2867b1; letter-spacing: 1vw; font-size: 4vw;"><i><u>Robotics</u></i></h2>
+                    <div class="robotics_slides" id="kitchenRobot">
+                        <div style="width:40%;">
+                            <h2>Chhoti Ammi - A Kitchen Robot</h2>
+                            <p class="description">A collaborative robot (Franka Emika's Panda Robot Arm) programmed to cook a typical Indian tiffin - paratha and sabzi. Built using the fundamental of robotics such as motion planning, human-robot interactions, inverse kinematics, and understanding of joint-space/task-space/work-space, to ensure completion of the task.
+                            <br/>
+                            <i>Team: Jaimin, Ishan, Puneet, Azfar</i></p>
+                            <p><b>Skills:</b> <i>Franka Control Interface, Fundamentals of Robotics</i></p>
+                        </div>
+                        <div class="project_image" style="width:40%;"><img class = "ThreeMusketeers" src="../Images/Robotics/robot_demo_day2_ - 170.jpeg"/></div>
+                    </div>
+
+                </div>
+                <br/>
+                <div class="contact_me" id="contact_me">
+                    <h2>Spark the convo</h2>
+                    <form id="contact_form" method="post">
+                        <input type="text" id="name" name="name" placeholder="Your name"/>
+                        <input type="email" id="email" name="email" placeholder="Email address"/>
+                        <br/>
+                        <textarea id="message" name="body" placeholder="Write your message"></textarea>
+                        <br/>
+                        <input type="button" id="submitButton" value="SEND MESSAGE" onclick="sendEmail();"/>
+                    </form>
+                </div>
+        </div>
+        <script src = "main.js"></script>
+    </body>
+    
+</html>
