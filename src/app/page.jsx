@@ -201,7 +201,7 @@ function ProjectsSection() {
           <div className="inline-flex rounded-md shadow-sm" role="group">
             <button
               type="button"
-              className={`px-6 py-2 text-sm font-medium rounded-l-lg ${
+              className={`px-6 py-2 text-sm font-medium rounded-l-lg cursor-pointer ${
                 activeTab === "all" 
                   ? "bg-blue-600 text-white" 
                   : "bg-white text-gray-700 hover:bg-gray-50"
@@ -212,7 +212,7 @@ function ProjectsSection() {
             </button>
             <button
               type="button"
-              className={`px-6 py-2 text-sm font-medium ${
+              className={`px-6 py-2 text-sm font-medium cursor-pointer ${
                 activeTab === "python" 
                   ? "bg-blue-600 text-white" 
                   : "bg-white text-gray-700 hover:bg-gray-50"
@@ -223,7 +223,7 @@ function ProjectsSection() {
             </button>
             <button
               type="button"
-              className={`px-6 py-2 text-sm font-medium rounded-r-lg ${
+              className={`px-6 py-2 text-sm font-medium rounded-r-lg cursor-pointer ${
                 activeTab === "robotics" 
                   ? "bg-blue-600 text-white" 
                   : "bg-white text-gray-700 hover:bg-gray-50"
