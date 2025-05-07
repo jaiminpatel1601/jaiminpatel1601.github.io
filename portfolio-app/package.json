@@ -1,12 +1,12 @@
 {
-  "homepage": "https://jaiminpatel1601.github.io/portfolio-app",
+  "homepage": "https://jaiminpatel1601.github.io/",
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "next dev --turbopack",
+    "deploy": "gh-pages -d out",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
